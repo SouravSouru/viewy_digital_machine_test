@@ -1,0 +1,4 @@
+#Sun Aug 13 19:59:18 IST 2023
+base.0=D\:\\code tests\\viewy_digital_machine_test\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
