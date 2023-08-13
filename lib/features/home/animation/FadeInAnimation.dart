@@ -11,7 +11,7 @@ class FadeInAnimation extends StatelessWidget {
   Widget build(BuildContext context) {
     return PlayAnimationBuilder<double>(
       delay: Duration(milliseconds: (500 * delay).round()),
-      duration:const Duration(milliseconds: 500),
+      duration: const Duration(milliseconds: 500),
       tween: Tween<double>(begin: 0.0, end: 1.0),
       curve: Curves.easeInOut,
       builder: (context, value, child) {
