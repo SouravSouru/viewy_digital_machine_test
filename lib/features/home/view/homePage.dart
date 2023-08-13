@@ -63,6 +63,7 @@ class _HomePageState extends State<HomePage> {
                 };
                 Provider.of<HomePageController>(context, listen: false)
                     .addTodo(_listKey, map);
+                    controller.clear();
               },
               child: Container(
                 height: 70,
@@ -83,6 +84,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
         leading: const Icon(Icons.menu),
+         scrolledUnderElevation: 0.0,
         backgroundColor: Colors.grey.shade200,
         actions: [
           InkWell(
@@ -166,6 +168,9 @@ class _HomePageState extends State<HomePage> {
                 ),
               );
             }),
+            const SizedBox(
+          height: 80,
+        )
           ],
         ),
       ),
